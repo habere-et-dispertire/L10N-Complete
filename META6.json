@@ -1,12 +1,14 @@
 {
   "auth": "zef:l10n",
   "authors": [
-    "Elizabeth Mattijsen"
+    "Elizabeth Mattijsen",
+    "habere-et-dispertire"
   ],
   "build-depends": [
   ],
   "depends": [
     "L10N:ver<0.1.0+>:auth<zef:l10n>",
+    "L10N::AF:ver<0.0.4+>:auth<zef:habere-et-dispertire>",
     "L10N::CY:ver<0.0.6+>:auth<zef:l10n>",
     "L10N::DE:ver<0.0.3+>:auth<zef:l10n>",
     "L10N::EN:ver<0.0.4+>:auth<zef:l10n>",
@@ -33,5 +35,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
